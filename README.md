@@ -1,2 +1,2 @@
-# react-gloretta
+# react-todolist
 Created with CodeSandbox
