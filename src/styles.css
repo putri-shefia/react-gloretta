@@ -1,4 +1,96 @@
-.App {
-  font-family: sans-serif;
+/* Styling khusus halaman index */
+
+@font-face {
+  font-family: "Autumn";
+  src: url("fonts/Autumn.otf");
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url("fonts/Comfortaa.ttf");
+}
+
+body {
+  background: #d7a9b4;
+  font-family: "Comfortaa";
+  margin: 0;
+  padding: 0;
+}
+
+.hd {
+  /*source gambar header */
+  background: url(headers/home.jpeg);
+}
+
+/*==== main====*/
+.main {
+  padding: 20px;
+  overflow: auto;
+}
+
+#content {
+  float: right;
+  width: 70%;
+  padding-left: 20px;
+}
+
+.box {
+  /*box layout*/
+  background-color: #e7cbd2;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/*========aside========*/
+aside {
+  float: left;
+  width: 30%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile {
+  text-align: left;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.profile header {
   text-align: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.profile th {
+  padding-right: 40px;
+}
+
+/*========tampilan mobile phone========*/
+@media screen and (max-width: 1000px) {
+  #content,
+  .box {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/*========etc=========*/
+
+.flex-nav {
+  background-color: #c07284; /*warna sticky navigation*/
+}
+
+footer {
+  /*warna footer*/
+  background-color: #7e3848;
+}
+
+.menu {
+  /*warna menu footer*/
+  background-color: #7e3848;
 }
